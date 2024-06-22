@@ -288,7 +288,7 @@ fun SootheNavigationRail(modifier: Modifier = Modifier){
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
             NavigationRailItem(selected = false,
-                onClick = { /*TODO*/ },
+                onClick = { },
                 icon = { Icon(imageVector = Icons.Default.Face,
                     contentDescription =null )
                 },
@@ -298,7 +298,7 @@ fun SootheNavigationRail(modifier: Modifier = Modifier){
             )
             Spacer(modifier = Modifier.height(8.dp))
             NavigationRailItem(selected = false,
-                onClick = { /*TODO*/ },
+                onClick = {  },
                 icon = { Icon(imageVector = Icons.Default.Home,
                     contentDescription = null)
                 },
